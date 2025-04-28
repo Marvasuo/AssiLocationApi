@@ -113,7 +113,7 @@ Alla kattava lista mäpättävistä arvoista:
 
 Assi Sairaalan tilatietojen käytössä on erikoisuus, joka pakottaa käsittelemään tilan kustannuspaikkatietoa ja ylläpitävän organisaation tietoa erillään toisistaan. Erityisesti hoitologistiikoilla on tarve kohdistaa tehtyä työaikaa yksiköittäin tai osastoittain. Tässä yhteydessä yksikkö ja osasto on organisaation osa. Logistiikot kirjaavat tehdyn työajan tietylle yksikölle ja työaika laskutetaan yksiköltä erikseen. Suurimmassa osassa tapauksia tämä ei tuota ongelmia mutta Assi Sairaalassa on olemassa myös ns. yhteiskäyttöisiä tiloja. Tällöin tilaa käyttää useampi yksikkö. FHIR standardissa tilan omistajuutta kuvataan `managingOrganisation` kentällä mutta standardin mukaan kyseisen tieto voi ilmetä vain kerran resurssilla. Näin ollen kustannuspaikkatietoa varten on laadittu laajennos [ResponsibleUnit](./StructureDefinition-responsible-unit.html), joka mahdollistaa useamman yksikön liittämisen tilatietoon.
 
-Tilalla voi olla kuitenkin `managingOrganisation` tieto. Tässä soveltamisoppaassa tällä kuitenkin viitataan ylätason organisaatioon, joka voi tässä tapauksessa olla Kanta-Hämeen hyvinvointialue.
+Tilalla voi olla kuitenkin `managingOrganisation` tieto. Tässä soveltamisoppaassa tällä kuitenkin viitataan ylätason organisaatioon, joka voi tässä tapauksessa olla "Kanta-Hämeen hyvinvointialue".
 
 # Määriteltäviä asioita
 
