@@ -1,4 +1,4 @@
-Alias: FinnishOrganisation = https://hl7.fi/fhir/finnish-base-profiles/StructureDefinition/fi-base-organisation
+Alias: FinnishOrganisation = https://hl7.fi/fhir/finnish-base-profiles/StructureDefinition/fi-base-organization
 
 Profile: AssiOrganisation
 Parent: FinnishOrganisation
