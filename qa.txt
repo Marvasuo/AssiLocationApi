@@ -3,7 +3,7 @@ AssiLocationAppIG : Validation Results
 
 err = 4, warn = 14, info = 2
 IG Publisher Version: 1.8.25
-Generated Tue Apr 29 07:17:28 UTC 2025. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
+Generated Tue Apr 29 07:36:34 UTC 2025. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
  Build Errors : 55 / 5 / 0
  /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/CodeSystem-location-type-cs : 2 / 2 / 2
  /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/ImplementationGuide-fhir.example : 0 / 0 / 1

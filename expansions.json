@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "572ef16b-fe4b-49f2-b1c1-624b52e31ef0",
+  "id" : "d1dff219-00f3-4d91-bb4d-e1b78d26c6fc",
   "meta" : {
-    "lastUpdated" : "2025-04-29T07:16:45.992+00:00"
+    "lastUpdated" : "2025-04-29T07:35:52.780+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,10 +18,10 @@
       "name" : "LocationTypeVS",
       "title" : "Organisaation tilatyypit (VS)",
       "status" : "active",
-      "date" : "2025-04-29T07:15:55+00:00",
+      "date" : "2025-04-29T07:35:04+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:1fc8b260-59db-4d03-a923-6cbc91509e90",
-        "timestamp" : "2025-04-29T07:17:08+00:00",
+        "identifier" : "urn:uuid:9a9cc86f-ba91-4423-a13a-b81674ee8a6f",
+        "timestamp" : "2025-04-29T07:36:18+00:00",
         "total" : 193,
         "offset" : 0,
         "parameter" : [{

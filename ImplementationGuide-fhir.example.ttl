@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "AssiLocationAppIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-29T07:15:55+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-29T07:35:04+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "OmaH�me"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "OmaH�me" ] ;
