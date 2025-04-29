@@ -69,7 +69,7 @@ ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/ValueSet-locatio
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/ValueSet-location-type-vs.ttl.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/ValueSet-location-type-vs.xml.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/artifacts.html#/html/body/div/div/div/p/a at Line 271, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/index.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
+ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/index.html#/html/body/div/div/div/p/a at Line 243, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/toc.html#/html/body/div/div/div/p/a at Line 142, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide

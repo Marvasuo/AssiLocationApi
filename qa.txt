@@ -3,7 +3,7 @@ AssiLocationAppIG : Validation Results
 
 err = 4, warn = 14, info = 2
 IG Publisher Version: 1.8.25
-Generated Tue Apr 29 07:36:34 UTC 2025. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
+Generated Tue Apr 29 09:19:00 UTC 2025. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
  Build Errors : 55 / 5 / 0
  /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/CodeSystem-location-type-cs : 2 / 2 / 2
  /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/ImplementationGuide-fhir.example : 0 / 0 / 1
@@ -69,7 +69,7 @@ ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/ValueSet-locatio
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/ValueSet-location-type-vs.ttl.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/ValueSet-location-type-vs.xml.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/artifacts.html#/html/body/div/div/div/p/a at Line 271, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/index.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
+ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/index.html#/html/body/div/div/div/p/a at Line 243, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/toc.html#/html/body/div/div/div/p/a at Line 142, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
