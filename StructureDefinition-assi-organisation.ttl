@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "AssiOrganisation"] ; # 
   fhir:title [ fhir:v "Assi Organisation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-29T09:25:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-04-29T10:31:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "OmaH�me"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "OmaH�me" ] ;

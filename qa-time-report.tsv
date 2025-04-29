@@ -1,7 +1,7 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-fhir.example.json	2495	-	0	0	0	0	0	0	2	545	0	0	0	0	0	0	0	0	0	0	65	90	0	0	0	4	0	1
-fsh-generated/resources/CodeSystem-location-type-cs.json	5096	34	0	0	1	0	0	0	0	51	0	0	0	0	0	0	0	1	0	0	34	2626	0	0	1	4	0	1
-fsh-generated/resources/StructureDefinition-assi-location.json	1917	31	0	87	0	0	0	0	0	98	0	0	1	0	0	0	0	1	0	0	134	640	0	0	0	13	0	1
-fsh-generated/resources/StructureDefinition-assi-organisation.json	747	28	0	50	0	0	0	0	0	52	0	0	0	0	0	0	0	1	0	0	75	331	0	0	0	6	0	1
-fsh-generated/resources/StructureDefinition-responsible-unit.json	2684	31	0	31	0	0	0	0	0	1417	0	0	0	0	0	0	0	0	0	0	76	249	0	0	0	5	0	0
-fsh-generated/resources/ValueSet-location-type-vs.json	569	29	0	0	0	0	0	0	0	210	0	0	0	0	0	0	0	0	0	0	19	679	0	0	0	1	0	0
+/fsh-generated/resources/ImplementationGuide-fhir.example.json	2495	-	0	0	0	0	0	0	3	398	0	0	0	0	0	0	0	1	0	0	69	94	0	0	0	4	0	2
+fsh-generated/resources/CodeSystem-location-type-cs.json	5096	26	0	0	1	0	1	0	1	52	0	0	0	0	0	0	0	0	0	0	37	2868	0	0	0	3	0	1
+fsh-generated/resources/StructureDefinition-assi-location.json	1917	29	0	86	0	0	0	0	0	98	0	0	0	0	0	0	0	1	0	0	152	655	0	0	0	12	0	2
+fsh-generated/resources/StructureDefinition-assi-organisation.json	747	28	0	44	0	0	0	0	0	53	0	0	1	0	0	0	0	1	0	0	111	301	0	0	0	7	0	1
+fsh-generated/resources/StructureDefinition-responsible-unit.json	2684	24	0	36	0	0	0	0	0	730	0	0	0	0	0	0	0	0	0	0	92	248	0	0	0	5	0	1
+fsh-generated/resources/ValueSet-location-type-vs.json	569	23	0	0	1	0	0	0	1	116	0	0	0	0	0	0	0	0	0	0	21	695	0	0	0	1	0	0
