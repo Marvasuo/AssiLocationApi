@@ -1,0 +1,51 @@
+[
+  {
+    "id" : "fhir.example",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/fhir.example",
+    "version" : "0.1.0",
+    "name" : "AssiLocationAppIG"
+  },
+  {
+    "id" : "MyPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/MyPatient",
+    "version" : "0.1.0",
+    "name" : "MyPatient"
+  },
+  {
+    "id" : "assi-location",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/assi-location",
+    "version" : "0.1.0",
+    "name" : "AssiLocation"
+  },
+  {
+    "id" : "assi-organisation",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/assi-organisation",
+    "version" : "0.1.0",
+    "name" : "AssiOrganisation"
+  },
+  {
+    "id" : "responsible-unit",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/responsible-unit",
+    "version" : "0.1.0",
+    "name" : "ResponsibleUnit"
+  },
+  {
+    "id" : "location-type-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/fhir/CodeSystem/location-type-cs",
+    "version" : "0.1.0",
+    "name" : "LocationTypeCS"
+  },
+  {
+    "id" : "location-type-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.org/fhir/ValueSet/location-type-vs",
+    "version" : "0.1.0",
+    "name" : "LocationTypeVS"
+  }
+]

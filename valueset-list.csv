@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.org/fhir/ValueSet/location-type-vs,0.1.0,active,,LocationTypeVS,Organisaation tilatyypit (VS),"Organisaation omiin tarpeisiin suunniteltu valikoima tilatyypeistä.",,"Internal"

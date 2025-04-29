@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.org/fhir/ValueSet/location-type-vs,0.1.0,active,,LocationTypeVS,Organisaation tilatyypit (VS),"Organisaation omiin tarpeisiin suunniteltu valikoima tilatyypeistä.","StructureDefinition/assi-location","Internal"
+http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType,3.0.0,active,"2.16.840.1.113883.1.11.17660",ServiceDeliveryLocationRoleType,ServiceDeliveryLocationRoleType,"A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.","ValueSet/location-type-vs","THO (V3)"

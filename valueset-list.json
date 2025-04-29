@@ -1,0 +1,16 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/fhir/ValueSet/location-type-vs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "LocationTypeVS",
+      "title" : "Organisaation tilatyypit (VS)",
+      "description" : "Organisaation omiin tarpeisiin suunniteltu valikoima tilatyypeistä.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "http://example.org/fhir/CodeSystem/location-type-cs"
+      ]
+    }
+  ]
+}

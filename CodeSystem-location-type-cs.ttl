@@ -1,0 +1,234 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/CodeSystem/location-type-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "location-type-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem location-type-cs</b></p><a name=\"location-type-cs\"> </a><a name=\"hclocation-type-cs\"> </a><a name=\"location-type-cs-en-US\"> </a><p>This  code system <code>http://example.org/fhir/CodeSystem/location-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">toi<a name=\"location-type-cs-toi\"> </a></td><td>Toimistotila</td></tr><tr><td style=\"white-space:nowrap\">toe<a name=\"location-type-cs-toe\"> </a></td><td>Toimistotila, erikoisvarustus</td></tr><tr><td style=\"white-space:nowrap\">kok<a name=\"location-type-cs-kok\"> </a></td><td>Kokoustila</td></tr><tr><td style=\"white-space:nowrap\">mot<a name=\"location-type-cs-mot\"> </a></td><td>Monitoimityötila</td></tr><tr><td style=\"white-space:nowrap\">lii<a name=\"location-type-cs-lii\"> </a></td><td>Liiketila</td></tr><tr><td style=\"white-space:nowrap\">opt<a name=\"location-type-cs-opt\"> </a></td><td>Opetustila tai luentosali</td></tr><tr><td style=\"white-space:nowrap\">mtp<a name=\"location-type-cs-mtp\"> </a></td><td>Muu opetus- tai terapiatila</td></tr><tr><td style=\"white-space:nowrap\">lab<a name=\"location-type-cs-lab\"> </a></td><td>Laboratorio</td></tr><tr><td style=\"white-space:nowrap\">puh<a name=\"location-type-cs-puh\"> </a></td><td>Puhdastila</td></tr><tr><td style=\"white-space:nowrap\">olo<a name=\"location-type-cs-olo\"> </a></td><td>Olosuhdehuone</td></tr><tr><td style=\"white-space:nowrap\">rhy<a name=\"location-type-cs-rhy\"> </a></td><td>Ryhmätila</td></tr><tr><td style=\"white-space:nowrap\">lei<a name=\"location-type-cs-lei\"> </a></td><td>Leikkaussali</td></tr><tr><td style=\"white-space:nowrap\">syn<a name=\"location-type-cs-syn\"> </a></td><td>Synnytyssali</td></tr><tr><td style=\"white-space:nowrap\">pot<a name=\"location-type-cs-pot\"> </a></td><td>Potilashuone</td></tr><tr><td style=\"white-space:nowrap\">eri<a name=\"location-type-cs-eri\"> </a></td><td>Eristyshuone</td></tr><tr><td style=\"white-space:nowrap\">teh<a name=\"location-type-cs-teh\"> </a></td><td>Tehohoitotila</td></tr><tr><td style=\"white-space:nowrap\">kap<a name=\"location-type-cs-kap\"> </a></td><td>Kappeli tai jäähyväishuone</td></tr><tr><td style=\"white-space:nowrap\">tph<a name=\"location-type-cs-tph\"> </a></td><td>Toimenpidehuone</td></tr><tr><td style=\"white-space:nowrap\">vas<a name=\"location-type-cs-vas\"> </a></td><td>Vastaanottohuone</td></tr><tr><td style=\"white-space:nowrap\">vak<a name=\"location-type-cs-vak\"> </a></td><td>Vastaanottohuone, kevyt</td></tr><tr><td style=\"white-space:nowrap\">vae<a name=\"location-type-cs-vae\"> </a></td><td>Vastaanottohuone, erikoisvarustus</td></tr><tr><td style=\"white-space:nowrap\">kuv<a name=\"location-type-cs-kuv\"> </a></td><td>Kuvantamishuone</td></tr><tr><td style=\"white-space:nowrap\">kve<a name=\"location-type-cs-kve\"> </a></td><td>Kuvantamishuone, erikoisvarustus</td></tr><tr><td style=\"white-space:nowrap\">val<a name=\"location-type-cs-val\"> </a></td><td>Valvonta- tai tarkkailutila</td></tr><tr><td style=\"white-space:nowrap\">her<a name=\"location-type-cs-her\"> </a></td><td>Heräämö</td></tr><tr><td style=\"white-space:nowrap\">vai<a name=\"location-type-cs-vai\"> </a></td><td>Vainajien säilytystila</td></tr><tr><td style=\"white-space:nowrap\">obd<a name=\"location-type-cs-obd\"> </a></td><td>Obduktio- tai dissektiotila</td></tr><tr><td style=\"white-space:nowrap\">whs<a name=\"location-type-cs-whs\"> </a></td><td>Välinehuoltotila</td></tr><tr><td style=\"white-space:nowrap\">lib<a name=\"location-type-cs-lib\"> </a></td><td>Kirjasto</td></tr><tr><td style=\"white-space:nowrap\">gym<a name=\"location-type-cs-gym\"> </a></td><td>Liikuntasali</td></tr><tr><td style=\"white-space:nowrap\">fit<a name=\"location-type-cs-fit\"> </a></td><td>Kuntosali</td></tr><tr><td style=\"white-space:nowrap\">res<a name=\"location-type-cs-res\"> </a></td><td>Pelastustoimen laitehuoltotila</td></tr><tr><td style=\"white-space:nowrap\">sto<a name=\"location-type-cs-sto\"> </a></td><td>Varastotila</td></tr><tr><td style=\"white-space:nowrap\">stc<a name=\"location-type-cs-stc\"> </a></td><td>Varastotila, kylmä</td></tr><tr><td style=\"white-space:nowrap\">ste<a name=\"location-type-cs-ste\"> </a></td><td>Varastotila, erikoisvarustus</td></tr><tr><td style=\"white-space:nowrap\">arc<a name=\"location-type-cs-arc\"> </a></td><td>Arkistotila</td></tr><tr><td style=\"white-space:nowrap\">gar<a name=\"location-type-cs-gar\"> </a></td><td>Auto- tai kalustohalli, lämmin</td></tr><tr><td style=\"white-space:nowrap\">was<a name=\"location-type-cs-was\"> </a></td><td>Pesuhalli</td></tr><tr><td style=\"white-space:nowrap\">din<a name=\"location-type-cs-din\"> </a></td><td>Ruokasali</td></tr><tr><td style=\"white-space:nowrap\">kit<a name=\"location-type-cs-kit\"> </a></td><td>Keittiö</td></tr><tr><td style=\"white-space:nowrap\">ser<a name=\"location-type-cs-ser\"> </a></td><td>Jakelukeittiö tai palvelukeittiö</td></tr><tr><td style=\"white-space:nowrap\">ref<a name=\"location-type-cs-ref\"> </a></td><td>Kylmiö</td></tr><tr><td style=\"white-space:nowrap\">fre<a name=\"location-type-cs-fre\"> </a></td><td>Pakastehuone</td></tr><tr><td style=\"white-space:nowrap\">cha<a name=\"location-type-cs-cha\"> </a></td><td>Pukutila</td></tr><tr><td style=\"white-space:nowrap\">bat<a name=\"location-type-cs-bat\"> </a></td><td>Pesutila</td></tr><tr><td style=\"white-space:nowrap\">wc<a name=\"location-type-cs-wc\"> </a></td><td>WC-tila</td></tr><tr><td style=\"white-space:nowrap\">sau<a name=\"location-type-cs-sau\"> </a></td><td>Sauna</td></tr><tr><td style=\"white-space:nowrap\">brk<a name=\"location-type-cs-brk\"> </a></td><td>Taukotila</td></tr><tr><td style=\"white-space:nowrap\">lou<a name=\"location-type-cs-lou\"> </a></td><td>Oleskelutila</td></tr><tr><td style=\"white-space:nowrap\">rea<a name=\"location-type-cs-rea\"> </a></td><td>Valmiushuone</td></tr><tr><td style=\"white-space:nowrap\">she<a name=\"location-type-cs-she\"> </a></td><td>Väestönsuojatila</td></tr><tr><td style=\"white-space:nowrap\">ent<a name=\"location-type-cs-ent\"> </a></td><td>Sisäänkäyntitila</td></tr><tr><td style=\"white-space:nowrap\">lob<a name=\"location-type-cs-lob\"> </a></td><td>Aula tai odotustila</td></tr><tr><td style=\"white-space:nowrap\">cln<a name=\"location-type-cs-cln\"> </a></td><td>Siivous- tai huoltotila</td></tr><tr><td style=\"white-space:nowrap\">tex<a name=\"location-type-cs-tex\"> </a></td><td>Vaate- tai tekstiilihuoltotila</td></tr><tr><td style=\"white-space:nowrap\">mnt<a name=\"location-type-cs-mnt\"> </a></td><td>Teknisen huollon tila</td></tr><tr><td style=\"white-space:nowrap\">wasd<a name=\"location-type-cs-wasd\"> </a></td><td>Jätehuoltotila</td></tr><tr><td style=\"white-space:nowrap\">cor<a name=\"location-type-cs-cor\"> </a></td><td>Käytävä (jakava liikenne)</td></tr><tr><td style=\"white-space:nowrap\">isl<a name=\"location-type-cs-isl\"> </a></td><td>Sulkutila</td></tr><tr><td style=\"white-space:nowrap\">log<a name=\"location-type-cs-log\"> </a></td><td>Logistiikka- tai terminaalitila</td></tr><tr><td style=\"white-space:nowrap\">sta<a name=\"location-type-cs-sta\"> </a></td><td>Porrashuone (osastoiva liikenne)</td></tr><tr><td style=\"white-space:nowrap\">tfn<a name=\"location-type-cs-tfn\"> </a></td><td>Tekninen tila</td></tr><tr><td style=\"white-space:nowrap\">tfne<a name=\"location-type-cs-tfne\"> </a></td><td>Tekninen tila, erikoisvarustus</td></tr><tr><td style=\"white-space:nowrap\">sup<a name=\"location-type-cs-sup\"> </a></td><td>Tekninen aputila</td></tr><tr><td style=\"white-space:nowrap\">raw<a name=\"location-type-cs-raw\"> </a></td><td>Raakatila</td></tr><tr><td style=\"white-space:nowrap\">ele<a name=\"location-type-cs-ele\"> </a></td><td>Hissi</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/fhir/CodeSystem/location-type-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "LocationTypeCS"] ; # 
+  fhir:title [ fhir:v "Organisaation tilatyypit"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2025-04-29T07:15:55+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "OmaH�me"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "OmaH�me" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.org/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Organisaation sisäiseen käyttöön tarkoitettu koodisto eri tilatyypeille, joita käytetään Location-resurssissa."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "66"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "toi" ] ;
+     fhir:display [ fhir:v "Toimistotila" ]
+  ] [
+     fhir:code [ fhir:v "toe" ] ;
+     fhir:display [ fhir:v "Toimistotila, erikoisvarustus" ]
+  ] [
+     fhir:code [ fhir:v "kok" ] ;
+     fhir:display [ fhir:v "Kokoustila" ]
+  ] [
+     fhir:code [ fhir:v "mot" ] ;
+     fhir:display [ fhir:v "Monitoimityötila" ]
+  ] [
+     fhir:code [ fhir:v "lii" ] ;
+     fhir:display [ fhir:v "Liiketila" ]
+  ] [
+     fhir:code [ fhir:v "opt" ] ;
+     fhir:display [ fhir:v "Opetustila tai luentosali" ]
+  ] [
+     fhir:code [ fhir:v "mtp" ] ;
+     fhir:display [ fhir:v "Muu opetus- tai terapiatila" ]
+  ] [
+     fhir:code [ fhir:v "lab" ] ;
+     fhir:display [ fhir:v "Laboratorio" ]
+  ] [
+     fhir:code [ fhir:v "puh" ] ;
+     fhir:display [ fhir:v "Puhdastila" ]
+  ] [
+     fhir:code [ fhir:v "olo" ] ;
+     fhir:display [ fhir:v "Olosuhdehuone" ]
+  ] [
+     fhir:code [ fhir:v "rhy" ] ;
+     fhir:display [ fhir:v "Ryhmätila" ]
+  ] [
+     fhir:code [ fhir:v "lei" ] ;
+     fhir:display [ fhir:v "Leikkaussali" ]
+  ] [
+     fhir:code [ fhir:v "syn" ] ;
+     fhir:display [ fhir:v "Synnytyssali" ]
+  ] [
+     fhir:code [ fhir:v "pot" ] ;
+     fhir:display [ fhir:v "Potilashuone" ]
+  ] [
+     fhir:code [ fhir:v "eri" ] ;
+     fhir:display [ fhir:v "Eristyshuone" ]
+  ] [
+     fhir:code [ fhir:v "teh" ] ;
+     fhir:display [ fhir:v "Tehohoitotila" ]
+  ] [
+     fhir:code [ fhir:v "kap" ] ;
+     fhir:display [ fhir:v "Kappeli tai jäähyväishuone" ]
+  ] [
+     fhir:code [ fhir:v "tph" ] ;
+     fhir:display [ fhir:v "Toimenpidehuone" ]
+  ] [
+     fhir:code [ fhir:v "vas" ] ;
+     fhir:display [ fhir:v "Vastaanottohuone" ]
+  ] [
+     fhir:code [ fhir:v "vak" ] ;
+     fhir:display [ fhir:v "Vastaanottohuone, kevyt" ]
+  ] [
+     fhir:code [ fhir:v "vae" ] ;
+     fhir:display [ fhir:v "Vastaanottohuone, erikoisvarustus" ]
+  ] [
+     fhir:code [ fhir:v "kuv" ] ;
+     fhir:display [ fhir:v "Kuvantamishuone" ]
+  ] [
+     fhir:code [ fhir:v "kve" ] ;
+     fhir:display [ fhir:v "Kuvantamishuone, erikoisvarustus" ]
+  ] [
+     fhir:code [ fhir:v "val" ] ;
+     fhir:display [ fhir:v "Valvonta- tai tarkkailutila" ]
+  ] [
+     fhir:code [ fhir:v "her" ] ;
+     fhir:display [ fhir:v "Heräämö" ]
+  ] [
+     fhir:code [ fhir:v "vai" ] ;
+     fhir:display [ fhir:v "Vainajien säilytystila" ]
+  ] [
+     fhir:code [ fhir:v "obd" ] ;
+     fhir:display [ fhir:v "Obduktio- tai dissektiotila" ]
+  ] [
+     fhir:code [ fhir:v "whs" ] ;
+     fhir:display [ fhir:v "Välinehuoltotila" ]
+  ] [
+     fhir:code [ fhir:v "lib" ] ;
+     fhir:display [ fhir:v "Kirjasto" ]
+  ] [
+     fhir:code [ fhir:v "gym" ] ;
+     fhir:display [ fhir:v "Liikuntasali" ]
+  ] [
+     fhir:code [ fhir:v "fit" ] ;
+     fhir:display [ fhir:v "Kuntosali" ]
+  ] [
+     fhir:code [ fhir:v "res" ] ;
+     fhir:display [ fhir:v "Pelastustoimen laitehuoltotila" ]
+  ] [
+     fhir:code [ fhir:v "sto" ] ;
+     fhir:display [ fhir:v "Varastotila" ]
+  ] [
+     fhir:code [ fhir:v "stc" ] ;
+     fhir:display [ fhir:v "Varastotila, kylmä" ]
+  ] [
+     fhir:code [ fhir:v "ste" ] ;
+     fhir:display [ fhir:v "Varastotila, erikoisvarustus" ]
+  ] [
+     fhir:code [ fhir:v "arc" ] ;
+     fhir:display [ fhir:v "Arkistotila" ]
+  ] [
+     fhir:code [ fhir:v "gar" ] ;
+     fhir:display [ fhir:v "Auto- tai kalustohalli, lämmin" ]
+  ] [
+     fhir:code [ fhir:v "was" ] ;
+     fhir:display [ fhir:v "Pesuhalli" ]
+  ] [
+     fhir:code [ fhir:v "din" ] ;
+     fhir:display [ fhir:v "Ruokasali" ]
+  ] [
+     fhir:code [ fhir:v "kit" ] ;
+     fhir:display [ fhir:v "Keittiö" ]
+  ] [
+     fhir:code [ fhir:v "ser" ] ;
+     fhir:display [ fhir:v "Jakelukeittiö tai palvelukeittiö" ]
+  ] [
+     fhir:code [ fhir:v "ref" ] ;
+     fhir:display [ fhir:v "Kylmiö" ]
+  ] [
+     fhir:code [ fhir:v "fre" ] ;
+     fhir:display [ fhir:v "Pakastehuone" ]
+  ] [
+     fhir:code [ fhir:v "cha" ] ;
+     fhir:display [ fhir:v "Pukutila" ]
+  ] [
+     fhir:code [ fhir:v "bat" ] ;
+     fhir:display [ fhir:v "Pesutila" ]
+  ] [
+     fhir:code [ fhir:v "wc" ] ;
+     fhir:display [ fhir:v "WC-tila" ]
+  ] [
+     fhir:code [ fhir:v "sau" ] ;
+     fhir:display [ fhir:v "Sauna" ]
+  ] [
+     fhir:code [ fhir:v "brk" ] ;
+     fhir:display [ fhir:v "Taukotila" ]
+  ] [
+     fhir:code [ fhir:v "lou" ] ;
+     fhir:display [ fhir:v "Oleskelutila" ]
+  ] [
+     fhir:code [ fhir:v "rea" ] ;
+     fhir:display [ fhir:v "Valmiushuone" ]
+  ] [
+     fhir:code [ fhir:v "she" ] ;
+     fhir:display [ fhir:v "Väestönsuojatila" ]
+  ] [
+     fhir:code [ fhir:v "ent" ] ;
+     fhir:display [ fhir:v "Sisäänkäyntitila" ]
+  ] [
+     fhir:code [ fhir:v "lob" ] ;
+     fhir:display [ fhir:v "Aula tai odotustila" ]
+  ] [
+     fhir:code [ fhir:v "cln" ] ;
+     fhir:display [ fhir:v "Siivous- tai huoltotila" ]
+  ] [
+     fhir:code [ fhir:v "tex" ] ;
+     fhir:display [ fhir:v "Vaate- tai tekstiilihuoltotila" ]
+  ] [
+     fhir:code [ fhir:v "mnt" ] ;
+     fhir:display [ fhir:v "Teknisen huollon tila" ]
+  ] [
+     fhir:code [ fhir:v "wasd" ] ;
+     fhir:display [ fhir:v "Jätehuoltotila" ]
+  ] [
+     fhir:code [ fhir:v "cor" ] ;
+     fhir:display [ fhir:v "Käytävä (jakava liikenne)" ]
+  ] [
+     fhir:code [ fhir:v "isl" ] ;
+     fhir:display [ fhir:v "Sulkutila" ]
+  ] [
+     fhir:code [ fhir:v "log" ] ;
+     fhir:display [ fhir:v "Logistiikka- tai terminaalitila" ]
+  ] [
+     fhir:code [ fhir:v "sta" ] ;
+     fhir:display [ fhir:v "Porrashuone (osastoiva liikenne)" ]
+  ] [
+     fhir:code [ fhir:v "tfn" ] ;
+     fhir:display [ fhir:v "Tekninen tila" ]
+  ] [
+     fhir:code [ fhir:v "tfne" ] ;
+     fhir:display [ fhir:v "Tekninen tila, erikoisvarustus" ]
+  ] [
+     fhir:code [ fhir:v "sup" ] ;
+     fhir:display [ fhir:v "Tekninen aputila" ]
+  ] [
+     fhir:code [ fhir:v "raw" ] ;
+     fhir:display [ fhir:v "Raakatila" ]
+  ] [
+     fhir:code [ fhir:v "ele" ] ;
+     fhir:display [ fhir:v "Hissi" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

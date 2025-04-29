@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "location-type-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet location-type-vs</b></p><a name=\"location-type-vs\"> </a><a name=\"hclocation-type-vs\"> </a><a name=\"location-type-vs-en-US\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-location-type-cs.html\"><code>http://example.org/fhir/CodeSystem/location-type-cs</code></a></li><li>Import all the codes that are contained in <a href=\"http://terminology.hl7.org/6.2.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html\">ServiceDeliveryLocationRoleType</a></li></ul></div>"
+  },
+  "url" : "http://example.org/fhir/ValueSet/location-type-vs",
+  "version" : "0.1.0",
+  "name" : "LocationTypeVS",
+  "title" : "Organisaation tilatyypit (VS)",
+  "status" : "active",
+  "date" : "2025-04-29T07:15:55+00:00",
+  "publisher" : "OmaH�me",
+  "contact" : [{
+    "name" : "OmaH�me",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Organisaation omiin tarpeisiin suunniteltu valikoima tilatyypeistä.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.org/fhir/CodeSystem/location-type-cs"
+    },
+    {
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType"]
+    }]
+  }
+}

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="location-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem location-type-cs</b></p><a name="location-type-cs"> </a><a name="hclocation-type-cs"> </a><a name="location-type-cs-en-US"> </a><p>This  code system <code>http://example.org/fhir/CodeSystem/location-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">toi<a name="location-type-cs-toi"> </a></td><td>Toimistotila</td></tr><tr><td style="white-space:nowrap">toe<a name="location-type-cs-toe"> </a></td><td>Toimistotila, erikoisvarustus</td></tr><tr><td style="white-space:nowrap">kok<a name="location-type-cs-kok"> </a></td><td>Kokoustila</td></tr><tr><td style="white-space:nowrap">mot<a name="location-type-cs-mot"> </a></td><td>Monitoimityötila</td></tr><tr><td style="white-space:nowrap">lii<a name="location-type-cs-lii"> </a></td><td>Liiketila</td></tr><tr><td style="white-space:nowrap">opt<a name="location-type-cs-opt"> </a></td><td>Opetustila tai luentosali</td></tr><tr><td style="white-space:nowrap">mtp<a name="location-type-cs-mtp"> </a></td><td>Muu opetus- tai terapiatila</td></tr><tr><td style="white-space:nowrap">lab<a name="location-type-cs-lab"> </a></td><td>Laboratorio</td></tr><tr><td style="white-space:nowrap">puh<a name="location-type-cs-puh"> </a></td><td>Puhdastila</td></tr><tr><td style="white-space:nowrap">olo<a name="location-type-cs-olo"> </a></td><td>Olosuhdehuone</td></tr><tr><td style="white-space:nowrap">rhy<a name="location-type-cs-rhy"> </a></td><td>Ryhmätila</td></tr><tr><td style="white-space:nowrap">lei<a name="location-type-cs-lei"> </a></td><td>Leikkaussali</td></tr><tr><td style="white-space:nowrap">syn<a name="location-type-cs-syn"> </a></td><td>Synnytyssali</td></tr><tr><td style="white-space:nowrap">pot<a name="location-type-cs-pot"> </a></td><td>Potilashuone</td></tr><tr><td style="white-space:nowrap">eri<a name="location-type-cs-eri"> </a></td><td>Eristyshuone</td></tr><tr><td style="white-space:nowrap">teh<a name="location-type-cs-teh"> </a></td><td>Tehohoitotila</td></tr><tr><td style="white-space:nowrap">kap<a name="location-type-cs-kap"> </a></td><td>Kappeli tai jäähyväishuone</td></tr><tr><td style="white-space:nowrap">tph<a name="location-type-cs-tph"> </a></td><td>Toimenpidehuone</td></tr><tr><td style="white-space:nowrap">vas<a name="location-type-cs-vas"> </a></td><td>Vastaanottohuone</td></tr><tr><td style="white-space:nowrap">vak<a name="location-type-cs-vak"> </a></td><td>Vastaanottohuone, kevyt</td></tr><tr><td style="white-space:nowrap">vae<a name="location-type-cs-vae"> </a></td><td>Vastaanottohuone, erikoisvarustus</td></tr><tr><td style="white-space:nowrap">kuv<a name="location-type-cs-kuv"> </a></td><td>Kuvantamishuone</td></tr><tr><td style="white-space:nowrap">kve<a name="location-type-cs-kve"> </a></td><td>Kuvantamishuone, erikoisvarustus</td></tr><tr><td style="white-space:nowrap">val<a name="location-type-cs-val"> </a></td><td>Valvonta- tai tarkkailutila</td></tr><tr><td style="white-space:nowrap">her<a name="location-type-cs-her"> </a></td><td>Heräämö</td></tr><tr><td style="white-space:nowrap">vai<a name="location-type-cs-vai"> </a></td><td>Vainajien säilytystila</td></tr><tr><td style="white-space:nowrap">obd<a name="location-type-cs-obd"> </a></td><td>Obduktio- tai dissektiotila</td></tr><tr><td style="white-space:nowrap">whs<a name="location-type-cs-whs"> </a></td><td>Välinehuoltotila</td></tr><tr><td style="white-space:nowrap">lib<a name="location-type-cs-lib"> </a></td><td>Kirjasto</td></tr><tr><td style="white-space:nowrap">gym<a name="location-type-cs-gym"> </a></td><td>Liikuntasali</td></tr><tr><td style="white-space:nowrap">fit<a name="location-type-cs-fit"> </a></td><td>Kuntosali</td></tr><tr><td style="white-space:nowrap">res<a name="location-type-cs-res"> </a></td><td>Pelastustoimen laitehuoltotila</td></tr><tr><td style="white-space:nowrap">sto<a name="location-type-cs-sto"> </a></td><td>Varastotila</td></tr><tr><td style="white-space:nowrap">stc<a name="location-type-cs-stc"> </a></td><td>Varastotila, kylmä</td></tr><tr><td style="white-space:nowrap">ste<a name="location-type-cs-ste"> </a></td><td>Varastotila, erikoisvarustus</td></tr><tr><td style="white-space:nowrap">arc<a name="location-type-cs-arc"> </a></td><td>Arkistotila</td></tr><tr><td style="white-space:nowrap">gar<a name="location-type-cs-gar"> </a></td><td>Auto- tai kalustohalli, lämmin</td></tr><tr><td style="white-space:nowrap">was<a name="location-type-cs-was"> </a></td><td>Pesuhalli</td></tr><tr><td style="white-space:nowrap">din<a name="location-type-cs-din"> </a></td><td>Ruokasali</td></tr><tr><td style="white-space:nowrap">kit<a name="location-type-cs-kit"> </a></td><td>Keittiö</td></tr><tr><td style="white-space:nowrap">ser<a name="location-type-cs-ser"> </a></td><td>Jakelukeittiö tai palvelukeittiö</td></tr><tr><td style="white-space:nowrap">ref<a name="location-type-cs-ref"> </a></td><td>Kylmiö</td></tr><tr><td style="white-space:nowrap">fre<a name="location-type-cs-fre"> </a></td><td>Pakastehuone</td></tr><tr><td style="white-space:nowrap">cha<a name="location-type-cs-cha"> </a></td><td>Pukutila</td></tr><tr><td style="white-space:nowrap">bat<a name="location-type-cs-bat"> </a></td><td>Pesutila</td></tr><tr><td style="white-space:nowrap">wc<a name="location-type-cs-wc"> </a></td><td>WC-tila</td></tr><tr><td style="white-space:nowrap">sau<a name="location-type-cs-sau"> </a></td><td>Sauna</td></tr><tr><td style="white-space:nowrap">brk<a name="location-type-cs-brk"> </a></td><td>Taukotila</td></tr><tr><td style="white-space:nowrap">lou<a name="location-type-cs-lou"> </a></td><td>Oleskelutila</td></tr><tr><td style="white-space:nowrap">rea<a name="location-type-cs-rea"> </a></td><td>Valmiushuone</td></tr><tr><td style="white-space:nowrap">she<a name="location-type-cs-she"> </a></td><td>Väestönsuojatila</td></tr><tr><td style="white-space:nowrap">ent<a name="location-type-cs-ent"> </a></td><td>Sisäänkäyntitila</td></tr><tr><td style="white-space:nowrap">lob<a name="location-type-cs-lob"> </a></td><td>Aula tai odotustila</td></tr><tr><td style="white-space:nowrap">cln<a name="location-type-cs-cln"> </a></td><td>Siivous- tai huoltotila</td></tr><tr><td style="white-space:nowrap">tex<a name="location-type-cs-tex"> </a></td><td>Vaate- tai tekstiilihuoltotila</td></tr><tr><td style="white-space:nowrap">mnt<a name="location-type-cs-mnt"> </a></td><td>Teknisen huollon tila</td></tr><tr><td style="white-space:nowrap">wasd<a name="location-type-cs-wasd"> </a></td><td>Jätehuoltotila</td></tr><tr><td style="white-space:nowrap">cor<a name="location-type-cs-cor"> </a></td><td>Käytävä (jakava liikenne)</td></tr><tr><td style="white-space:nowrap">isl<a name="location-type-cs-isl"> </a></td><td>Sulkutila</td></tr><tr><td style="white-space:nowrap">log<a name="location-type-cs-log"> </a></td><td>Logistiikka- tai terminaalitila</td></tr><tr><td style="white-space:nowrap">sta<a name="location-type-cs-sta"> </a></td><td>Porrashuone (osastoiva liikenne)</td></tr><tr><td style="white-space:nowrap">tfn<a name="location-type-cs-tfn"> </a></td><td>Tekninen tila</td></tr><tr><td style="white-space:nowrap">tfne<a name="location-type-cs-tfne"> </a></td><td>Tekninen tila, erikoisvarustus</td></tr><tr><td style="white-space:nowrap">sup<a name="location-type-cs-sup"> </a></td><td>Tekninen aputila</td></tr><tr><td style="white-space:nowrap">raw<a name="location-type-cs-raw"> </a></td><td>Raakatila</td></tr><tr><td style="white-space:nowrap">ele<a name="location-type-cs-ele"> </a></td><td>Hissi</td></tr></table></div>
+  </text>
+  <url value="http://example.org/fhir/CodeSystem/location-type-cs"/>
+  <version value="0.1.0"/>
+  <name value="LocationTypeCS"/>
+  <title value="Organisaation tilatyypit"/>
+  <status value="active"/>
+  <date value="2025-04-29T07:15:55+00:00"/>
+  <publisher value="OmaH�me"/>
+  <contact>
+    <name value="OmaH�me"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Organisaation sisäiseen käyttöön tarkoitettu koodisto eri tilatyypeille, joita käytetään Location-resurssissa."/>
+  <content value="complete"/>
+  <count value="66"/>
+  <concept>
+    <code value="toi"/>
+    <display value="Toimistotila"/>
+  </concept>
+  <concept>
+    <code value="toe"/>
+    <display value="Toimistotila, erikoisvarustus"/>
+  </concept>
+  <concept>
+    <code value="kok"/>
+    <display value="Kokoustila"/>
+  </concept>
+  <concept>
+    <code value="mot"/>
+    <display value="Monitoimityötila"/>
+  </concept>
+  <concept>
+    <code value="lii"/>
+    <display value="Liiketila"/>
+  </concept>
+  <concept>
+    <code value="opt"/>
+    <display value="Opetustila tai luentosali"/>
+  </concept>
+  <concept>
+    <code value="mtp"/>
+    <display value="Muu opetus- tai terapiatila"/>
+  </concept>
+  <concept>
+    <code value="lab"/>
+    <display value="Laboratorio"/>
+  </concept>
+  <concept>
+    <code value="puh"/>
+    <display value="Puhdastila"/>
+  </concept>
+  <concept>
+    <code value="olo"/>
+    <display value="Olosuhdehuone"/>
+  </concept>
+  <concept>
+    <code value="rhy"/>
+    <display value="Ryhmätila"/>
+  </concept>
+  <concept>
+    <code value="lei"/>
+    <display value="Leikkaussali"/>
+  </concept>
+  <concept>
+    <code value="syn"/>
+    <display value="Synnytyssali"/>
+  </concept>
+  <concept>
+    <code value="pot"/>
+    <display value="Potilashuone"/>
+  </concept>
+  <concept>
+    <code value="eri"/>
+    <display value="Eristyshuone"/>
+  </concept>
+  <concept>
+    <code value="teh"/>
+    <display value="Tehohoitotila"/>
+  </concept>
+  <concept>
+    <code value="kap"/>
+    <display value="Kappeli tai jäähyväishuone"/>
+  </concept>
+  <concept>
+    <code value="tph"/>
+    <display value="Toimenpidehuone"/>
+  </concept>
+  <concept>
+    <code value="vas"/>
+    <display value="Vastaanottohuone"/>
+  </concept>
+  <concept>
+    <code value="vak"/>
+    <display value="Vastaanottohuone, kevyt"/>
+  </concept>
+  <concept>
+    <code value="vae"/>
+    <display value="Vastaanottohuone, erikoisvarustus"/>
+  </concept>
+  <concept>
+    <code value="kuv"/>
+    <display value="Kuvantamishuone"/>
+  </concept>
+  <concept>
+    <code value="kve"/>
+    <display value="Kuvantamishuone, erikoisvarustus"/>
+  </concept>
+  <concept>
+    <code value="val"/>
+    <display value="Valvonta- tai tarkkailutila"/>
+  </concept>
+  <concept>
+    <code value="her"/>
+    <display value="Heräämö"/>
+  </concept>
+  <concept>
+    <code value="vai"/>
+    <display value="Vainajien säilytystila"/>
+  </concept>
+  <concept>
+    <code value="obd"/>
+    <display value="Obduktio- tai dissektiotila"/>
+  </concept>
+  <concept>
+    <code value="whs"/>
+    <display value="Välinehuoltotila"/>
+  </concept>
+  <concept>
+    <code value="lib"/>
+    <display value="Kirjasto"/>
+  </concept>
+  <concept>
+    <code value="gym"/>
+    <display value="Liikuntasali"/>
+  </concept>
+  <concept>
+    <code value="fit"/>
+    <display value="Kuntosali"/>
+  </concept>
+  <concept>
+    <code value="res"/>
+    <display value="Pelastustoimen laitehuoltotila"/>
+  </concept>
+  <concept>
+    <code value="sto"/>
+    <display value="Varastotila"/>
+  </concept>
+  <concept>
+    <code value="stc"/>
+    <display value="Varastotila, kylmä"/>
+  </concept>
+  <concept>
+    <code value="ste"/>
+    <display value="Varastotila, erikoisvarustus"/>
+  </concept>
+  <concept>
+    <code value="arc"/>
+    <display value="Arkistotila"/>
+  </concept>
+  <concept>
+    <code value="gar"/>
+    <display value="Auto- tai kalustohalli, lämmin"/>
+  </concept>
+  <concept>
+    <code value="was"/>
+    <display value="Pesuhalli"/>
+  </concept>
+  <concept>
+    <code value="din"/>
+    <display value="Ruokasali"/>
+  </concept>
+  <concept>
+    <code value="kit"/>
+    <display value="Keittiö"/>
+  </concept>
+  <concept>
+    <code value="ser"/>
+    <display value="Jakelukeittiö tai palvelukeittiö"/>
+  </concept>
+  <concept>
+    <code value="ref"/>
+    <display value="Kylmiö"/>
+  </concept>
+  <concept>
+    <code value="fre"/>
+    <display value="Pakastehuone"/>
+  </concept>
+  <concept>
+    <code value="cha"/>
+    <display value="Pukutila"/>
+  </concept>
+  <concept>
+    <code value="bat"/>
+    <display value="Pesutila"/>
+  </concept>
+  <concept>
+    <code value="wc"/>
+    <display value="WC-tila"/>
+  </concept>
+  <concept>
+    <code value="sau"/>
+    <display value="Sauna"/>
+  </concept>
+  <concept>
+    <code value="brk"/>
+    <display value="Taukotila"/>
+  </concept>
+  <concept>
+    <code value="lou"/>
+    <display value="Oleskelutila"/>
+  </concept>
+  <concept>
+    <code value="rea"/>
+    <display value="Valmiushuone"/>
+  </concept>
+  <concept>
+    <code value="she"/>
+    <display value="Väestönsuojatila"/>
+  </concept>
+  <concept>
+    <code value="ent"/>
+    <display value="Sisäänkäyntitila"/>
+  </concept>
+  <concept>
+    <code value="lob"/>
+    <display value="Aula tai odotustila"/>
+  </concept>
+  <concept>
+    <code value="cln"/>
+    <display value="Siivous- tai huoltotila"/>
+  </concept>
+  <concept>
+    <code value="tex"/>
+    <display value="Vaate- tai tekstiilihuoltotila"/>
+  </concept>
+  <concept>
+    <code value="mnt"/>
+    <display value="Teknisen huollon tila"/>
+  </concept>
+  <concept>
+    <code value="wasd"/>
+    <display value="Jätehuoltotila"/>
+  </concept>
+  <concept>
+    <code value="cor"/>
+    <display value="Käytävä (jakava liikenne)"/>
+  </concept>
+  <concept>
+    <code value="isl"/>
+    <display value="Sulkutila"/>
+  </concept>
+  <concept>
+    <code value="log"/>
+    <display value="Logistiikka- tai terminaalitila"/>
+  </concept>
+  <concept>
+    <code value="sta"/>
+    <display value="Porrashuone (osastoiva liikenne)"/>
+  </concept>
+  <concept>
+    <code value="tfn"/>
+    <display value="Tekninen tila"/>
+  </concept>
+  <concept>
+    <code value="tfne"/>
+    <display value="Tekninen tila, erikoisvarustus"/>
+  </concept>
+  <concept>
+    <code value="sup"/>
+    <display value="Tekninen aputila"/>
+  </concept>
+  <concept>
+    <code value="raw"/>
+    <display value="Raakatila"/>
+  </concept>
+  <concept>
+    <code value="ele"/>
+    <display value="Hissi"/>
+  </concept>
+</CodeSystem>

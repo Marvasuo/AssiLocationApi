@@ -1,0 +1,15 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/fhir/CodeSystem/location-type-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "LocationTypeCS",
+      "title" : "Organisaation tilatyypit",
+      "description" : "Organisaation sisäiseen käyttöön tarkoitettu koodisto eri tilatyypeille, joita käytetään Location-resurssissa.",
+      "uses" : {
+      },
+      "ValueSet-location-type-vs.html" : "Organisaation tilatyypit (VS)"
+    }
+  ]
+}
