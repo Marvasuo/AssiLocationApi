@@ -38,9 +38,6 @@ jobs:
     - name: Build Implementation Guide
       run: java -jar input-cache/publisher.jar -ig .
 
-    - name: Create .nojekyll file
-      run: touch output/.nojekyll
-
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
