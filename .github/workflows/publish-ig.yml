@@ -27,15 +27,7 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Cache IG Publisher JAR
-      id: cache-publisher
-      uses: actions/cache@v4
-      with:
-        path: input-cache/publisher.jar
-        key: ig-publisher-jar
-
-    - name: Download IG Publisher (if not cached)
-      if: steps.cache-publisher.outputs.cache-hit != 'true'
+    - name: Download IG Publisher
       run: |
         mkdir -p input-cache
         curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o input-cache/publisher.jar
@@ -45,6 +37,9 @@ jobs:
 
     - name: Build Implementation Guide
       run: java -jar input-cache/publisher.jar -ig .
+
+    - name: Create .nojekyll file
+      run: touch output/.nojekyll
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
