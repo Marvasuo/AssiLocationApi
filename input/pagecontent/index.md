@@ -1,3 +1,7 @@
+# HUOMIOITAVAA!
+
+<p class="dragon"><strong>Älä käytä tätä määrittelyä rajapintatoteutuksen pohjana tai ohjeena integraatioiden toteuttamiseen Kanta-Hämeen hyvinvointialueen tietojärjestelmiin!</strong> Tämä määrittely on vielä hyvin kokeellinen eikä vastaa Kanta-Hämeen hyvinvointialueen nykyistä integraatioarkkitehtuuria. Määrittelyn tavoitteena on tulevaisuudessa yhdenmukaistaa sairaalan tilatietojen käyttöä ja tehostaa tietojärjestelmien kehittämiseen ja ylläpitoon liittyvää toimintaa.
+</p>
 
 # Johdanto
 
