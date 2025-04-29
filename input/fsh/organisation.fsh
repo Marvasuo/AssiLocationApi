@@ -6,4 +6,4 @@ Id: assi-organisation
 Title: "Assi Organisation"
 Description: ""
 * name 1..1
-* identifier 1..1
+* identifier MS 1..1
