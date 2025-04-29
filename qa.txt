@@ -3,13 +3,11 @@ AssiLocationAppIG : Validation Results
 
 err = 4, warn = 14, info = 2
 IG Publisher Version: 1.8.25
-Generated Tue Apr 29 09:19:00 UTC 2025. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
- Build Errors : 55 / 5 / 0
+Generated Tue Apr 29 09:27:02 UTC 2025. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://example.org)
+ Build Errors : 41 / 5 / 0
  /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/CodeSystem-location-type-cs : 2 / 2 / 2
  /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/ImplementationGuide-fhir.example : 0 / 0 / 1
- /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
- /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 2
- /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/StructureDefinition-assi-location : 0 / 2 / 1
+ /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/StructureDefinition-assi-location : 0 / 2 / 2
  /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/StructureDefinition-assi-organisation : 0 / 1 / 1
  /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/StructureDefinition-responsible-unit : 0 / 2 / 1
  /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/ValueSet-location-type-vs : 2 / 2 / 1
@@ -22,20 +20,6 @@ ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/CodeSystem-locat
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/CodeSystem-location-type-cs.json.html#/html/body/div/div/div/p/a at Line 504, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/CodeSystem-location-type-cs.ttl.html#/html/body/div/div/div/p/a at Line 443, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/CodeSystem-location-type-cs.xml.html#/html/body/div/div/div/p/a at Line 499, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/Patient-PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/Patient-PatientExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/Patient-PatientExample.json.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/Patient-PatientExample.ttl.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/Patient-PatientExample.xml.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/a at Line 542, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/p/a at Line 355, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-MyPatient.html#/html/body/div/div/div/p/a at Line 1599, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/a at Line 2462, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 1871, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2307, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-assi-location-definitions.html#/html/body/div/div/div/p/a at Line 518, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-assi-location-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/StructureDefinition-assi-location-mappings.html#/html/body/div/div/div/p/a at Line 290, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
@@ -68,7 +52,7 @@ ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/ValueSet-locatio
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/ValueSet-location-type-vs.json.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/ValueSet-location-type-vs.ttl.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/ValueSet-location-type-vs.xml.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
-ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/artifacts.html#/html/body/div/div/div/p/a at Line 271, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
+ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/artifacts.html#/html/body/div/div/div/p/a at Line 243, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/index.html#/html/body/div/div/div/p/a at Line 243, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/output/toc.html#/html/body/div/div/div/p/a at Line 142, column 28: The link 'http://example.org/example-publisher' for "OmaH�me" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -82,10 +66,8 @@ WARNING: CodeSystem/location-type-cs: CodeSystem: Published code systems SHOULD 
 WARNING: CodeSystem/location-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 ERROR: /home/runner/work/AssiLocationApi/AssiLocationApi/fsh-generated/resources/CodeSystem-location-type-cs: URL Mismatch http://example.org/CodeSystem/location-type-cs vs http://example.org/fhir/CodeSystem/location-type-cs
 == fsh-generated/resources/ImplementationGuide-fhir.example.json ==
-== fsh-generated/resources/Patient-PatientExample.json ==
-== fsh-generated/resources/StructureDefinition-MyPatient.json ==
-INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 == fsh-generated/resources/StructureDefinition-assi-location.json ==
+INFORMATION: StructureDefinition/assi-location: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 WARNING: StructureDefinition/assi-location: StructureDefinition.snapshot.element[17].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType' to 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType|3.0.0'
 WARNING: StructureDefinition.where(url = 'http://example.org/StructureDefinition/assi-location'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-assi-organisation.json ==

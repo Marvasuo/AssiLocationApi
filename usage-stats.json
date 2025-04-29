@@ -63,12 +63,6 @@
     }
   ],
   "profiles": {
-    "Patient": [
-      {
-        "url": "http://example.org/StructureDefinition/MyPatient",
-        "title": "MyPatient"
-      }
-    ],
     "Location": [
       {
         "url": "http://example.org/StructureDefinition/assi-location",

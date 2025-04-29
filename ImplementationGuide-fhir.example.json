@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "AssiLocationAppIG",
   "status" : "draft",
-  "date" : "2025-04-29T09:17:33+00:00",
+  "date" : "2025-04-29T09:25:32+00:00",
   "publisher" : "OmaH�me",
   "contact" : [{
     "name" : "OmaH�me",
@@ -628,18 +628,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/MyPatient"
-      },
-      "name" : "MyPatient",
-      "description" : "An example profile of the Patient resource.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -660,18 +648,6 @@
       "name" : "Organisaation tilatyypit (VS)",
       "description" : "Organisaation omiin tarpeisiin suunniteltu valikoima tilatyypeistä.",
       "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/PatientExample"
-      },
-      "name" : "PatientExample",
-      "description" : "An example of a patient with a license to krill.",
-      "exampleCanonical" : "http://example.org/StructureDefinition/MyPatient"
     },
     {
       "extension" : [{

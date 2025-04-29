@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="AssiLocationAppIG"/>
   <status value="draft"/>
-  <date value="2025-04-29T09:17:33+00:00"/>
+  <date value="2025-04-29T09:25:32+00:00"/>
   <publisher value="OmaH�me"/>
   <contact>
     <name value="OmaH�me"/>
@@ -469,17 +469,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/MyPatient"/>
-      </reference>
-      <name value="MyPatient"/>
-      <description value="An example profile of the Patient resource."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -499,17 +488,6 @@
       <name value="Organisaation tilatyypit (VS)"/>
       <description value="Organisaation omiin tarpeisiin suunniteltu valikoima tilatyypeistä."/>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/PatientExample"/>
-      </reference>
-      <name value="PatientExample"/>
-      <description value="An example of a patient with a license to krill."/>
-      <exampleCanonical value="http://example.org/StructureDefinition/MyPatient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -7,13 +7,6 @@
     "name" : "AssiLocationAppIG"
   },
   {
-    "id" : "MyPatient",
-    "type" : "StructureDefinition",
-    "url" : "http://example.org/StructureDefinition/MyPatient",
-    "version" : "0.1.0",
-    "name" : "MyPatient"
-  },
-  {
     "id" : "assi-location",
     "type" : "StructureDefinition",
     "url" : "http://example.org/StructureDefinition/assi-location",

@@ -16,20 +16,6 @@
       "StructureDefinition-assi-location.html" : "Assi Location profile"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "AdministrativeGender",
-      "title" : "AdministrativeGender",
-      "description" : "The gender of a person used for administrative purposes.",
-      "systems" : ["http://hl7.org/fhir/administrative-gender"],
-      "oids" : ["2.16.840.1.113883.4.642.3.1"],
-      "sources" : ["2.16.840.1.113883.4.642.3.1"],
-      "uses" : {
-      },
-      "StructureDefinition-MyPatient.html" : "MyPatient"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
       "version" : "4.0.1",
       "status" : "draft",
@@ -69,23 +55,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-assi-organisation.html" : "Assi Organisation",
-      "StructureDefinition-MyPatient.html" : "MyPatient",
-      "StructureDefinition-assi-location.html" : "Assi Location profile"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/link-type",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "LinkType",
-      "title" : "LinkType",
-      "description" : "The type of link between this patient resource and another patient resource.",
-      "systems" : ["http://hl7.org/fhir/link-type"],
-      "oids" : ["2.16.840.1.113883.4.642.3.423"],
-      "sources" : ["2.16.840.1.113883.4.642.3.423"],
-      "uses" : {
-      },
-      "StructureDefinition-MyPatient.html" : "MyPatient"
+      "StructureDefinition-assi-location.html" : "Assi Location profile",
+      "StructureDefinition-assi-organisation.html" : "Assi Organisation"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",
@@ -132,23 +103,6 @@
       "StructureDefinition-assi-location.html" : "Assi Location profile"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/marital-status",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "Marital Status Codes",
-      "title" : "MaritalStatus",
-      "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
-      ],
-      "oids" : ["2.16.840.1.113883.4.642.3.29"],
-      "sources" : ["2.16.840.1.113883.4.642.3.29"],
-      "uses" : {
-      },
-      "StructureDefinition-MyPatient.html" : "MyPatient"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/organization-type",
       "version" : "4.0.1",
       "status" : "draft",
@@ -161,20 +115,6 @@
       "uses" : {
       },
       "StructureDefinition-assi-organisation.html" : "Assi Organisation"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "PatientContactRelationship",
-      "title" : "Patient Contact Relationship ",
-      "description" : "The nature of the relationship between the patient and the contact person.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
-      "oids" : ["2.16.840.1.113883.4.642.3.1130"],
-      "sources" : ["2.16.840.1.113883.4.642.3.1130"],
-      "uses" : {
-      },
-      "StructureDefinition-MyPatient.html" : "MyPatient"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0116",
@@ -202,8 +142,8 @@
       "sources" : ["2.16.840.1.113883.1.11.17660"],
       "uses" : {
       },
-      "ValueSet-location-type-vs.html" : "Organisaation tilatyypit (VS)",
-      "StructureDefinition-assi-location.html" : "Assi Location profile"
+      "StructureDefinition-assi-location.html" : "Assi Location profile",
+      "ValueSet-location-type-vs.html" : "Organisaation tilatyypit (VS)"
     }
   ]
 }
