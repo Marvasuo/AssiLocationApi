@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "AssiLocationAppIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-04-29T10:31:38+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-30T11:48:20+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "OmaH�me"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "OmaH�me" ] ;
@@ -43,7 +43,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.2.0" ]
+     fhir:version [ fhir:v "6.4.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [

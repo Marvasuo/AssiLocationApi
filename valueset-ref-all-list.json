@@ -55,8 +55,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-assi-location.html" : "Assi Location profile",
-      "StructureDefinition-assi-organisation.html" : "Assi Organisation"
+      "StructureDefinition-assi-organisation.html" : "Assi Organisation",
+      "StructureDefinition-assi-location.html" : "Assi Location profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-mode",
