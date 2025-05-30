@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="fa3f55ca-843a-400d-a615-e7f210489685"/>
+  <id value="88a5528d-51b4-4cc9-9f91-bec879a90ba9"/>
   <meta>
-    <lastUpdated value="2025-05-30T11:54:08.356+00:00"/>
+    <lastUpdated value="2025-05-30T12:09:21.083+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -2383,10 +2383,10 @@
         <name value="LocationTypeVS"/>
         <title value="Organisaation tilatyypit (VS)"/>
         <status value="active"/>
-        <date value="2025-05-30T11:53:21+00:00"/>
+        <date value="2025-05-30T12:08:36+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:cd0aef12-0c78-41f8-9460-720b6fc4f5f9"/>
-          <timestamp value="2025-05-30T11:54:28+00:00"/>
+          <identifier value="urn:uuid:fb48c0ca-6d9c-444e-9452-449f19e3c360"/>
+          <timestamp value="2025-05-30T12:09:46+00:00"/>
           <total value="193"/>
           <offset value="0"/>
           <parameter>
