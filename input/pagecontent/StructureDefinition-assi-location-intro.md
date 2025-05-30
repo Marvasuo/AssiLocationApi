@@ -122,4 +122,3 @@ Tilalla voi olla kuitenkin `managingOrganisation` tieto. Tässä soveltamisoppaa
 - Koodisto tilan tyypille.
 - TRH:n pitäisi pystyä päivittämään tilan ominaisuuksia ja resurssitietoja. Eli mitä erityispiirteitä tilalla on ja minkälaiseen palveluntarpeeseen tila sopii. Miten tämä ratkaistaan? HealthcareService ja Device resurssit? Joku kevyempi ratkaisu?
 - Tilatiedot hyödyntäminen karttaratkaisuissa. Position-tiedon täydentäminen.
-- Tilan tyypin koodit vaihdettava numeroiksi (suorituspaikkakoodi)
