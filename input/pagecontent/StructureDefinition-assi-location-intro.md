@@ -41,72 +41,72 @@ Alla kattava lista mäpättävistä arvoista:
 
 | Lähdejärjestelmän (Modulo) arvo                      | Koodi | Perusmuoto (standardoidusti käytettävä arvo)       |
 |------------------------------------------------------|-------|----------------------------------------------------|
-| Toimistotilat                                        | toi   | Toimistotila                                      |
-| Toimistotilat, erikoisvar.                           | toe   | Toimistotila, erikoisvarustus                     |
-| Kokoustilat                                          | kok   | Kokoustila                                        |
-| Monitoimityötilat                                    | mot   | Monitoimityötila                                  |
-| Liiketilat                                           | lii   | Liiketila                                         |
-| Opetustilat ja luentosalit                           | opt   | Opetustila tai luentosali                         |
-| Muut opetus- ja terapiatilat                         | mtp   | Muu opetus- tai terapiatila                       |
-| Laboratoriot                                         | lab   | Laboratorio                                       |
-| Puhdastilat                                          | puh   | Puhdastila                                        |
-| Olosuhdehuoneet                                      | olo   | Olosuhdehuone                                     |
-| Ryhmätilat                                           | rhy   | Ryhmätila                                         |
-| Leikkaussalit                                        | lei   | Leikkaussali                                      |
-| Synnytyssalit                                        | syn   | Synnytyssali                                      |
-| Potilashuoneet                                       | pot   | Potilashuone                                      |
-| Eristyshuoneet                                       | eri   | Eristyshuone                                      |
-| Tehohoito                                            | teh   | Tehohoitotila                                     |
-| Kappelit, jäähyväishuoneet                           | kap   | Kappeli tai jäähyväishuone                        |
-| Toimenpidehuoneet                                    | tph   | Toimenpidehuone                                   |
-| Vastaanottohuoneet                                   | vas   | Vastaanottohuone                                  |
-| Vastaanottohuoneet, kevyt                            | vak   | Vastaanottohuone, kevyt                           |
-| Vastaanottohuoneet, erikoisvar.                      | vae   | Vastaanottohuone, erikoisvarustus                 |
-| Kuvantamishuoneet                                    | kuv   | Kuvantamishuone                                   |
-| Kuvantamishuoneet, erikoisvar.                       | kve   | Kuvantamishuone, erikoisvarustus                  |
-| Valvonta- ja tarkkailutilat                          | val   | Valvonta- tai tarkkailutila                       |
-| Heräämö                                              | her   | Heräämö                                           |
-| Vainajien säilytystilat                              | vai   | Vainajien säilytystila                            |
-| Obduktio- ja dissektiotilat                          | obd   | Obduktio- tai dissektiotila                       |
-| Välinehuoltotilat                                    | whs   | Välinehuoltotila                                  |
-| Kirjastot                                            | lib   | Kirjasto                                          |
-| Liikuntasalit                                        | gym   | Liikuntasali                                      |
-| Kuntosalit                                           | fit   | Kuntosali                                         |
-| Pelastustoimen laitehuoltotilat                      | res   | Pelastustoimen laitehuoltotila                   |
-| Varastotilat                                         | sto   | Varastotila                                       |
-| Varastotilat, kylmä                                  | stc   | Varastotila, kylmä                                |
-| Varastotilat, erikois                                | ste   | Varastotila, erikoisvarustus                      |
-| Arkistotilat                                         | arc   | Arkistotila                                       |
-| Auto- ja kalustohalli, lämmin                        | gar   | Auto- tai kalustohalli, lämmin                    |
-| Pesuhalli                                            | was   | Pesuhalli                                         |
-| Ruokasalit                                           | din   | Ruokasali                                         |
-| Keittiöt                                             | kit   | Keittiö                                           |
-| Jakelu- ja palvelukeittiöt                           | ser   | Jakelukeittiö tai palvelukeittiö                 |
-| Kylmiöt                                              | ref   | Kylmiö                                            |
-| Pakastehuoneet                                       | fre   | Pakastehuone                                      |
-| Pukutilat                                            | cha   | Pukutila                                          |
-| Pesutilat                                            | bat   | Pesutila                                          |
-| WC-tilat                                             | wc    | WC-tila                                           |
-| Saunat                                               | sau   | Sauna                                             |
-| Taukotilat                                           | brk   | Taukotila                                         |
-| Oleskelutilat                                        | lou   | Oleskelutila                                      |
-| Valmiushuoneet                                       | rea   | Valmiushuone                                     |
-| Väestönsuojatilat                                    | she   | Väestönsuojatila                                  |
-| Sisäänkäyntitilat                                    | ent   | Sisäänkäyntitila                                  |
-| Aulat ja odotustilat                                 | lob   | Aula tai odotustila                              |
-| Siivous- ja huoltotilat                              | cln   | Siivous- tai huoltotila                          |
-| Vaate- ja tekstiilihuoltotilat                       | tex   | Vaate- tai tekstiilihuoltotila                   |
-| Teknisen huollon tilat                               | mnt   | Teknisen huollon tila                            |
-| Jätehuoltotilat                                      | wasd  | Jätehuoltotila                                   |
-| Käytävät (jakava liikenne)                           | cor   | Käytävä (jakava liikenne)                        |
-| Sulkutilat                                           | isl   | Sulkutila                                        |
-| Logistiikka- ja terminaalitilat                      | log   | Logistiikka- tai terminaalitila                 |
-| Porrashuoneet (osastoiva liikenne)                   | sta   | Porrashuone (osastoiva liikenne)                 |
-| Tekniset tilat                                       | tfn   | Tekninen tila                                    |
-| Tekniset tilat, erikoisvar.                          | tfne  | Tekninen tila, erikoisvarustus                   |
-| Tekniset aputilat                                    | sup   | Tekninen aputila                                 |
-| Raakatilat                                           | raw   | Raakatila                                         |
-| Hissit                                               | ele   | Hissi                                             |
+| Toimistotilat                                        | 211   | Toimistotila                                      |
+| Toimistotilat, erikoisvar.                           | 2112  | Toimistotila, erikoisvarustus                     |
+| Kokoustilat                                          | 214   | Kokoustila                                        |
+| Monitoimityötilat                                    | 215   | Monitoimityötila                                  |
+| Liiketilat                                           | 22    | Liiketila                                         |
+| Opetustilat ja luentosalit                           | 31    | Opetustila tai luentosali                         |
+| Muut opetus- ja terapiatilat                         | 3249  | Muu opetus- tai terapiatila                       |
+| Laboratoriot                                         | 362   | Laboratorio                                       |
+| Puhdastilat                                          | 3651  | Puhdastila                                        |
+| Olosuhdehuoneet                                      | 366   | Olosuhdehuone                                     |
+| Ryhmätilat                                           | 371   | Ryhmätila                                         |
+| Leikkaussalit                                        | 441   | Leikkaussali                                      |
+| Synnytyssalit                                        | 4411  | Synnytyssali                                      |
+| Potilashuoneet                                       | 442   | Potilashuone                                      |
+| Eristyshuoneet                                       | 4421  | Eristyshuone                                      |
+| Tehohoito                                            | 4422  | Tehohoitotila                                     |
+| Kappelit, jäähyväishuoneet                           | 443   | Kappeli tai jäähyväishuone                        |
+| Toimenpidehuoneet                                    | 444   | Toimenpidehuone                                   |
+| Vastaanottohuoneet                                   | 4441  | Vastaanottohuone                                  |
+| Vastaanottohuoneet, kevyt                            | 44411 | Vastaanottohuone, kevyt                           |
+| Vastaanottohuoneet, erikoisvar.                      | 44412 | Vastaanottohuone, erikoisvarustus                 |
+| Kuvantamishuoneet                                    | 4443  | Kuvantamishuone                                   |
+| Kuvantamishuoneet, erikoisvar.                       | 4445  | Kuvantamishuone, erikoisvarustus                  |
+| Valvonta- ja tarkkailutilat                          | 4451  | Valvonta- tai tarkkailutila                       |
+| Heräämö                                              | 4454  | Heräämö                                           |
+| Vainajien säilytystilat                              | 446   | Vainajien säilytystila                            |
+| Obduktio- ja dissektiotilat                          | 447   | Obduktio- tai dissektiotila                       |
+| Välinehuoltotilat                                    | 448   | Välinehuoltotila                                  |
+| Kirjastot                                            | 4615  | Kirjasto                                          |
+| Liikuntasalit                                        | 471   | Liikuntasali                                      |
+| Kuntosalit                                           | 472   | Kuntosali                                         |
+| Pelastustoimen laitehuoltotilat                      | 4911  | Pelastustoimen laitehuoltotila                   |
+| Varastotilat                                         | 521   | Varastotila                                       |
+| Varastotilat, kylmä                                  | 5292  | Varastotila, kylmä                                |
+| Varastotilat, erikois                                | 5293  | Varastotila, erikoisvarustus                      |
+| Arkistotilat                                         | 531   | Arkistotila                                       |
+| Auto- ja kalustohalli, lämmin                        | 552   | Auto- tai kalustohalli, lämmin                    |
+| Pesuhalli                                            | 555   | Pesuhalli                                         |
+| Ruokasalit                                           | 63    | Ruokasali                                         |
+| Keittiöt                                             | 642   | Keittiö                                           |
+| Jakelu- ja palvelukeittiöt                           | 645   | Jakelukeittiö tai palvelukeittiö                 |
+| Kylmiöt                                              | 651   | Kylmiö                                            |
+| Pakastehuoneet                                       | 652   | Pakastehuone                                      |
+| Pukutilat                                            | 71    | Pukutila                                          |
+| Pesutilat                                            | 72    | Pesutila                                          |
+| WC-tilat                                             | 73    | WC-tila                                           |
+| Saunat                                               | 74    | Sauna                                             |
+| Taukotilat                                           | 751   | Taukotila                                         |
+| Oleskelutilat                                        | 752   | Oleskelutila                                      |
+| Valmiushuoneet                                       | 753   | Valmiushuone                                      |
+| Väestönsuojatilat                                    | 81    | Väestönsuojatila                                  |
+| Sisäänkäyntitilat                                    | 83    | Sisäänkäyntitila                                  |
+| Aulat ja odotustilat                                 | 832   | Aula tai odotustila                               |
+| Siivous- ja huoltotilat                              | 86    | Siivous- tai huoltotila                           |
+| Vaate- ja tekstiilihuoltotilat                       | 865   | Vaate- tai tekstiilihuoltotila                   |
+| Teknisen huollon tilat                               | 866   | Teknisen huollon tila                             |
+| Jätehuoltotilat                                      | 87    | Jätehuoltotila                                    |
+| Käytävät (jakava liikenne)                           | 91    | Käytävä (jakava liikenne)                         |
+| Sulkutilat                                           | 911   | Sulkutila                                         |
+| Logistiikka- ja terminaalitilat                      | 912   | Logistiikka- tai terminaalitila                   |
+| Porrashuoneet (osastoiva liikenne)                   | 921   | Porrashuone (osastoiva liikenne)                  |
+| Tekniset tilat                                       | 94    | Tekninen tila                                     |
+| Tekniset tilat, erikoisvar.                          | 941   | Tekninen tila, erikoisvarustus                   |
+| Tekniset aputilat                                    | 942   | Tekninen aputila                                  |
+| Raakatilat                                           | 991   | Raakatila                                         |
+| Hissit                                               | 9911  | Hissi                                             |
 
 
 # Kustannuspaikka- ja organisaatiotiedon suhde toisiinsa
